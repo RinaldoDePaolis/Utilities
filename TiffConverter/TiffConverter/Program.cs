@@ -60,7 +60,7 @@ namespace TiffConverter
                 {
                     totalFiles = totalFiles -= 1;
 
-                    if (file.Extension.ToString() == ".tif")
+                    if (file.Extension.ToString() == ".tif" || file.Extension.ToString() == ".tiff")
                     {
                         iTextSharp.text.Document document = new iTextSharp.text.Document(iTextSharp.text.PageSize.A4, 0, 0, 0, 0);
                         string fileName = Path.GetFileNameWithoutExtension(file.ToString());
