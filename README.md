@@ -2,5 +2,5 @@
 
 Contains some hopefully useful utilities 
 
-# TiffConvertor 
+### TiffConvertor 
 Console App for converting tiff files to multipage PDF
