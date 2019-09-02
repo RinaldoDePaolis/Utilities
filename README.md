@@ -1,3 +1,6 @@
 # Utilities
 
-Contains some c# utilities to assist in migration of files
+Contains some hopefully useful utilities 
+
+# TiffConvertor 
+Console App for converting tiff files to multipage PDF
